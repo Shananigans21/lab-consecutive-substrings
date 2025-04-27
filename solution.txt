@@ -1,2 +1,13 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+Description:
+This function generates all consecutive substrings from a given input string. 
+It uses two nested loops: the outer loop selects the starting character, 
+and the inner loop slices the string to generate substrings that start from that character.
+
+Time Complexity:
+The time complexity is O(n^2), where n is the length of the input string. 
+This is because for each character, we may generate up to n substrings.
+
+Scalability:
+As the input string becomes longer, the number of substrings grows quadratically.
+This means if the input size doubles, the number of substrings roughly quadruples.
+The nested loops are the main factor affecting scalability.
